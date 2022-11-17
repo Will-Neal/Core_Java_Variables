@@ -120,6 +120,11 @@ public class HomeClass {
 		System.out.println(circumference);
 	}
 	
+	/**
+	 * Instantiates three doubles and sales tax as the constant
+	 * calculates subtotal based on number of items
+	 * uses sales tax and subtotal to calculate total
+	 */
 	public static void totalOrder() {
 		double coffee = 2.99;
 		double scones = 3.50;
