@@ -27,7 +27,7 @@ public class HomeClass {
 	 */
 	public static void integerSum(int x, int y) {
 		int sum = x + y;
-		System.out.println(sum);
+		System.out.println("Integer Sum: " + sum);
 	}
 
 	/**
@@ -36,7 +36,7 @@ public class HomeClass {
 	 */
 	public static void doubleSum(double x, double y) {
 		double sum = x + y;
-		System.out.println(sum);
+		System.out.println("Double Sum: " + sum);
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class HomeClass {
 	 */
 	public static void diffTypeSum(int x, double y) {
 		double sum = x + y;
-		System.out.println(sum);
+		System.out.println("Different datatype sum: " + sum);
 	}
 
 	/**
@@ -65,7 +65,7 @@ public class HomeClass {
 		} else {
 			quotient = b / a;
 		}
-		System.out.println(quotient);
+		System.out.println("Integer Division: " + quotient);
 	}
 
 	/**
@@ -81,7 +81,7 @@ public class HomeClass {
 		} else {
 			quotient = y / x;
 		}
-		System.out.println(quotient);
+		System.out.println("Double division: " + quotient);
 		System.out.println("Integer: " + (int) quotient);
 	}
 
@@ -125,7 +125,7 @@ public class HomeClass {
 
 		double subtotal = (3 * coffee) + (4 * scones) + (2 * matcha);
 		double totalSale = subtotal + ((subtotal * SALES_TAX) / 100);
-		totalSale = Math.round(totalSale * 100);
+		totalSale = Math.round(totalSale * 100); //To round to 2 digits
 		totalSale = totalSale/100;
 		System.out.println("Total Sale: " + totalSale);
 
